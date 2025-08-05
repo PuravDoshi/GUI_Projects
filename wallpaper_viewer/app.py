@@ -2,7 +2,6 @@ from tkinter import *
 from PIL import Image, ImageTk
 import os
 current_dir='/Users/puravdoshi/Downloads/GUI Projects/wallpaper_viewer/Wallpaper'
-counter=1
 counter = 0
 def rotate_img():
     global counter
