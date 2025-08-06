@@ -21,7 +21,10 @@ root.configure(background='#0096DC')
 # process to configure and load an image
 img=Image.open('flipkart.png')
 resize_img=img.resize((150,150))
-img=ImageTk.PhotoImage(resize_img) 
+# ImageTk.PhotoImage() converts a PIL image to a Tkinter-compatible image object.
+# You use it when displaying PIL images (like JPG/PNG) in Tkinter widgets such as Label or Canvas.
+# Without this conversion, Tkinter can't show the image.
+img=ImageTk.PhotoImage(resize_img)
 img_label=Label(root, image=img)
 img_label.pack(pady=(10,10)) # using a geometry manager to fit the image explicitly with padding
 
