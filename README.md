@@ -71,7 +71,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👋 Author
 **Purav Doshi**
 
-**📧 Reach out: pndoshi07@.com**
+**📧 Reach out: pndoshi07@gmail.com**
 
 ---
 ⭐ If you found this helpful, don't forget to star the repo and share!
